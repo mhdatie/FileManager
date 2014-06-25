@@ -1,0 +1,128 @@
+/* 
+	template: internet management
+	author: luka cvrk (www.solucija.com)
+*/
+
+body { color: #303030; background: #ebebeb; font: .74em Arial, Verdana, sans-serif; text-align: center; line-height: 1.6em; margin: 2.5em 0; }
+a { color: #214466; background: inherit; }
+a:hover { color: #000; background: inherit; }
+h2 {font-size: 1.4em;}
+ul { margin: .6em 0; padding: 0;}
+.clear {	clear: both; margin: 0 0 .5em 0; }
+
+#wrapper { width: 85%; margin: 0 auto; text-align: left; }
+
+#logo h3 {
+	float: left;
+	color: #000;
+	background: inherit;
+	margin: 0 0 .8em .8em;
+	padding: 0;
+	font-size: 1.2em;
+}
+	
+#top {
+	float: right;
+	margin: 0 2em 0 0;
+}
+			
+#menu { clear: both; margin: 0 2% 1em 1%; padding: 7px 0 7px 0; border-bottom: 1px solid #DCDBD5; border-top: 1px solid #DCDBD5;}
+#menu li { display: inline; }
+#menu a { padding: 3px 15px; margin: 0 3px 0 0; text-decoration: none; color: #808080; background: inherit; }
+#menu a.current { color: #fff; background: #3D648A; }
+#menu a:hover { background: #fff; color: #444;}
+
+.column {
+	float: left;
+	width: 29%;
+        margin: .3em 1.1%;
+	background: #fff;
+	color: #303030;
+	padding: 1% 1%;
+}	
+.column h1 {
+	margin: 1% 0;
+	padding: 0;
+	color: #214466;
+	background: inherit;
+	font-size: 1.5em;
+}
+		
+.number {
+	background: #ccc;
+	padding: .6% 3%;
+	color: #FFF;
+}
+		
+.half {
+	float: left;
+	width: 45.6%;
+	margin: 1em 1.1%;
+	background: #fff;
+	color: #303030;
+	padding: .5% 1%;
+}
+
+.date { border-top: 1px dotted #ccc; padding: 5px 0;}
+			
+.news { background: #fff; color: #808080; padding: .7em 1em; margin: 0 1%; margin-bottom: 15px}
+
+#footer { margin: 2em 3%; text-align: right; }
+
+/* the overlayed element */
+.simple_overlay {
+ 
+    /* must be initially hidden */
+    display:none;
+ 
+    /* place overlay on top of other elements */
+    z-index:10000;
+ 
+    /* styling */
+    background-color:#333;
+ 
+    width:675px;
+    min-height:200px;
+    border:1px solid #666;
+ 
+    /* CSS3 styling for latest browsers */
+    -moz-box-shadow:0 0 90px 5px #000;
+    -webkit-box-shadow: 0 0 90px #000;
+}
+ 
+/* close button positioned on upper right corner */
+.simple_overlay .close {
+    background-image:url(/media/img/overlay/close.png);
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    cursor:pointer;
+    height:35px;
+    width:35px;
+}
+
+ /* styling for elements inside overlay */
+  .details {
+  position:absolute;
+  top:15px;
+  right:15px;
+  font-size:11px;
+  color:#fff;
+  width:150px;
+  }
+ 
+  .details h3 {
+  color:#aba;
+  font-size:15px;
+  }
+  
+  .allfiles {
+      display: inline; text-decoration: none;
+  }
+  
+  .allnames {
+      float: right;
+      padding-right: 10px
+  }
+  
+  
