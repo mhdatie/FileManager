@@ -8,3 +8,6 @@ This project is created in MySQL deprecated form. It is also no longer maintaine
 The highlight of this project was to implement a working prototype according to a pre-defined documentation. In other words, the main purpose of this was to reflect the functional and non-functional requirements in the document. 
 
 **The document will be uploaded soon**
+
+[Temporary link to document](https://www.dropbox.com/s/ziqt7c6dh7zq8d5/FinalDocument.pdf?dl=0)
+
